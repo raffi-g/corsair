@@ -17,7 +17,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pytest pytest-xdist
-        pip install pyyaml jinja2 wavedrom
+        pip install pyyaml jinja2 git+https://github.com/wallento/wavedrompy
         sudo dpkg --add-architecture i386
         sudo apt update
         sudo apt install -y libxtst6:i386 libxft2:i386

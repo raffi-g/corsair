@@ -68,7 +68,7 @@ setuptools.setup(
     install_requires=[
         'pyyaml',
         'jinja2',
-        'wavedrom',
+        'wavedrom @ git+https://github.com/wallento/wavedrompy',
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
